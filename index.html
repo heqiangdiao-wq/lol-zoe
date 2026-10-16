@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0a22">
+  <meta name="description" content="佐伊（暮光星灵）非官方同人主题站——在星界边缘的梦境云端的幻境里，重温她的技能、故事与瞬间。">
+  <title>佐伊 · 暮光嬉戏</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-sigil" viewBox="0 0 48 48"><path d="M24 4c2 12 4 14 16 16-12 2-14 4-16 16-2-12-4-14-16-16 12-2 14-4 16-16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 2 2.8 7.2L22 12l-7.2 2.8L12 22l-2.8-7.2L2 12l7.2-2.8L12 2Z" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="icon-moon" viewBox="0 0 24 24"><path d="M20.8 14A9 9 0 0 1 10 3.2 9 9 0 1 0 20.8 14Z" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8" r="1.5" fill="currentColor"/><path d="m4 18 5-5 4 3 4-6 4 8" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24"><path d="M12 6C9 3 5 3 2 4v15c4-1 7 0 10 2 3-2 6-3 10-2V4c-3-1-7-1-10 2Zm0 0v15" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m3 5 9 8 9-8" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.2 19.5v-2.3c-2.6.6-3.2-1.1-3.2-1.1-.4-1-1-1.3-1-1.3-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.3 1 2.8.8.1-.7.4-1.2.7-1.5-2.1-.2-4.3-1.1-4.3-4.8 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .9-.3 2.8 1a9.4 9.4 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .6 1.4.2 2.5.1 2.7.7.7 1.1 1.6 1.1 2.7 0 3.7-2.2 4.5-4.3 4.8.4.3.7.9.7 1.8v3.2A10 10 0 0 0 12 2Z" fill="currentColor"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <nav class="navigation" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="佐伊首页"><span class="brand-mark"><svg><use href="#icon-sigil"/></svg></span><span>佐伊<small>ZOE</small></span></a>
+      <div class="nav-links" id="nav-menu">
+        <a href="#home" class="active">首页</a><a href="#story-detail">故事</a><a href="#ability-detail">能力</a><a href="#gallery">画廊</a><a href="#contact">联系</a>
+      </div>
+      <div class="nav-tools"><button class="icon-button atmosphere-button" type="button" aria-label="关闭粒子效果" aria-pressed="true" title="粒子效果"><svg><use href="#icon-star"/></svg></button><span class="nav-divider"></span><span class="nav-note">幻境漫游中</span><button class="menu-toggle icon-button" type="button" aria-controls="nav-menu" aria-expanded="false" aria-label="打开导航菜单"><span></span><span></span></button></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-title" aria-roledescription="轮播图">
+      <div class="hero-slides"><div class="hero-track" id="hero-track">
+        <div class="hero-image" data-label="主视觉" role="img" aria-label="主视觉：佐伊的主题幻境" style="background:radial-gradient(120% 90% at 25% 15%, #ff8ad140 0%, transparent 55%), radial-gradient(90% 80% at 85% 80%, #7ad0ff2e 0%, transparent 50%), linear-gradient(155deg, #0c0a22 0%, #160f33 55%, #ff8ad11f 100%)"></div>
+<div class="hero-image" data-label="幻境" role="img" aria-label="幻境：佐伊的主题幻境" style="background:radial-gradient(100% 100% at 80% 20%, #7ad0ff33 0%, transparent 55%), linear-gradient(200deg, #160f33 0%, #0c0a22 60%, #ff8ad122 100%)"></div>
+<div class="hero-image" data-label="余光" role="img" aria-label="余光：佐伊的主题幻境" style="background:radial-gradient(110% 90% at 50% 90%, #ff8ad133 0%, transparent 55%), linear-gradient(120deg, #0c0a22 0%, #160f33 70%, #7ad0ff1f 100%)"></div>
+      </div></div>
+      <div class="hero-shade"></div><div class="particles" aria-hidden="true"></div>
+      <button class="hero-arrow hero-previous icon-button" type="button" aria-label="上一张主视觉" aria-controls="hero-track" hidden>‹</button>
+      <button class="hero-arrow hero-next icon-button" type="button" aria-label="下一张主视觉" aria-controls="hero-track" hidden>›</button>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> THE ASPECT OF TWILIGHT <span></span></p>
+        <h1 id="hero-title">佐伊</h1>
+        <p class="hero-subtitle">暮光嬉戏</p>
+        <div class="ornament" aria-hidden="true"><i></i><svg><use href="#icon-star"/></svg><i></i></div>
+        <p class="hero-description">睡着的星尘，会在梦里跟你说话。<br>要不要，一起做个短暂的梦？</p>
+        <div class="hero-actions"><a class="button button-primary" href="#story-detail"><svg><use href="#icon-star"/></svg>走进故事</a><a class="button button-glass" href="#gallery"><svg><use href="#icon-image"/></svg>查看画廊</a></div>
+      </div>
+      <div class="hero-carousel-controls" role="group" aria-label="主视觉轮播控制" hidden>
+        <span class="hero-slide-count" aria-hidden="true">01 / 03</span>
+        <div class="hero-dots"><button type="button" class="hero-dot" data-hero-slide="0" aria-label="切换到第 1 张主视觉" aria-controls="hero-track" aria-pressed="true"></button><button type="button" class="hero-dot" data-hero-slide="1" aria-label="切换到第 2 张主视觉" aria-controls="hero-track" aria-pressed="false"></button><button type="button" class="hero-dot" data-hero-slide="2" aria-label="切换到第 3 张主视觉" aria-controls="hero-track" aria-pressed="false"></button></div>
+        <button class="hero-play-toggle" type="button" aria-label="暂停自动轮播" aria-controls="hero-track" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button>
+      </div>
+      <span class="sr-only" id="hero-slide-status" role="status" aria-live="polite" aria-atomic="true"></span>
+    </section>
+
+    <section id="story-detail" class="story-section" aria-labelledby="story-title">
+      <div class="story-inner">
+        <div class="section-heading">
+          <p class="eyebrow">HER STORY</p>
+          <h2 id="story-title">佐伊的故事</h2>
+          <p class="section-intro">在星界边缘的梦境云端，一位暮光星灵的命运缓缓展开。</p>
+        </div>
+        <div class="story-copy">
+          <p class="story-description">佐伊——暮光星灵，来自星界边缘的梦境云端。</p><p>调皮捣蛋、异想天开而且变化莫测，佐伊就是这一切的现实化身。作为巨神族的宇宙信使，她的出现就是惊天巨变的先兆。她甚至无需任何行为，只是单纯地出现在某个地方，就足以扭曲周围的奥术数学法则，从而扰乱现实的物理定律。有的时候还会带来浩劫与灾难，虽然她本身并无半点恶意。或许这就是为什么她对待自己的职责总是那么地漫不经心，给了她充足的时间用来玩游戏、捉弄凡人，或者自娱自乐。与佐伊的邂逅可能会给人带来欢乐与激励，但她的现身往往没这么简单，甚至常常意味着极大的危险。</p><p>调皮捣蛋、异想天开而且变化莫测，佐伊就是这一切的现实化身。作为巨神族的宇宙信使，她的出现就是惊天巨变的先兆。她甚至无需任何行为，只是单纯地出现在某个地方，就足以扭曲周围的奥术数学法则，从而扰乱现实的物理定律。有的时候还会带来浩劫与灾难，虽然她本身并无半点恶意。或许这就是为什么她对待自己的职责总是那么地漫不经心，给了她充足的时间用来玩游戏、捉弄凡人，或者自娱自乐。与佐伊的邂逅可能会给人带来欢乐与激励，但她的现身往往没这么简单，甚至常常意味着极大的危险。</p><p class="story-quote">「睡着的星尘，会在梦里跟你说话。，要不要，一起做个短暂的梦？」</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ability-detail" class="abilities-section" aria-labelledby="ability-title">
+      <div class="section-heading">
+        <p class="eyebrow">HER ARSENAL</p>
+        <h2 id="ability-title">佐伊的能力</h2>
+      </div>
+      <div class="ability-panel">
+        <div class="ability-tabs" role="tablist" aria-label="技能切换">
+          <button id="tab-passive" role="tab" data-ability="passive" aria-selected="true" aria-controls="ability-content" tabindex="0"><span class="ability-badge">P</span><span><small>被动</small>烟火四射！</span></button>
+<button id="tab-q" role="tab" data-ability="q" aria-selected="false" aria-controls="ability-content" tabindex="-1"><span class="ability-badge">Q</span><span><small>秘术</small>飞星乱入！</span></button>
+<button id="tab-w" role="tab" data-ability="w" aria-selected="false" aria-controls="ability-content" tabindex="-1"><span class="ability-badge">W</span><span><small>秘术</small>窃法巧手</span></button>
+<button id="tab-e" role="tab" data-ability="e" aria-selected="false" aria-controls="ability-content" tabindex="-1"><span class="ability-badge">E</span><span><small>秘术</small>催眠气泡</span></button>
+<button id="tab-r" role="tab" data-ability="r" aria-selected="false" aria-controls="ability-content" tabindex="-1"><span class="ability-badge">R</span><span><small>终极</small>折返跃迁</span></button>
+        </div>
+        <div class="ability-content" id="ability-content" role="tabpanel" tabindex="0" aria-labelledby="tab-passive">
+          <p class="eyebrow" id="ability-label"></p>
+          <h3 id="ability-name"></h3>
+          <p id="ability-description"></p>
+        </div>
+        <div class="ability-art" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <p class="eyebrow">HER GALLERY</p>
+        <h2 id="gallery-title">佐伊的画廊</h2>
+      </div>
+      <div class="gallery-filters" role="group" aria-label="画廊分类筛选">
+        <button type="button" data-filter="all" class="selected" aria-pressed="true">全部</button>
+        <button type="button" data-filter="landscape" aria-pressed="false">风景</button>
+        <button type="button" data-filter="magic" aria-pressed="false">法术</button>
+        <button type="button" data-filter="character" aria-pressed="false">人物</button>
+        <button type="button" data-filter="moment" aria-pressed="false">瞬间</button>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-category="landscape" data-scene="1" aria-label="查看：星界边缘的黎明"><span class="gallery-art scene-1" aria-hidden="true"></span><span class="gallery-caption"><small>LANDSCAPE</small><strong>星界边缘的黎明</strong></span></button>
+<button class="gallery-item" data-category="magic" data-scene="2" aria-label="查看：星尘的闪烁的低语"><span class="gallery-art scene-2" aria-hidden="true"></span><span class="gallery-caption"><small>MAGIC</small><strong>星尘的闪烁的低语</strong></span></button>
+<button class="gallery-item" data-category="character" data-scene="3" aria-label="查看：星尘的守望"><span class="gallery-art scene-3" aria-hidden="true"></span><span class="gallery-caption"><small>CHARACTER</small><strong>星尘的守望</strong></span></button>
+<button class="gallery-item" data-category="landscape" data-scene="4" aria-label="查看：云朵上的天光"><span class="gallery-art scene-4" aria-hidden="true"></span><span class="gallery-caption"><small>LANDSCAPE</small><strong>云朵上的天光</strong></span></button>
+<button class="gallery-item" data-category="magic" data-scene="5" aria-label="查看：指尖的晨星"><span class="gallery-art scene-5" aria-hidden="true"></span><span class="gallery-caption"><small>MAGIC</small><strong>指尖的晨星</strong></span></button>
+<button class="gallery-item" data-category="moment" data-scene="6" aria-label="查看：旅途的休止"><span class="gallery-art scene-6" aria-hidden="true"></span><span class="gallery-caption"><small>MOMENT</small><strong>旅途的休止</strong></span></button>
+<button class="gallery-item" data-category="landscape" data-scene="7" aria-label="查看：星尘的闪烁的回响"><span class="gallery-art scene-7" aria-hidden="true"></span><span class="gallery-caption"><small>LANDSCAPE</small><strong>星尘的闪烁的回响</strong></span></button>
+<button class="gallery-item" data-category="moment" data-scene="8" aria-label="查看：最后的晨星"><span class="gallery-art scene-8" aria-hidden="true"></span><span class="gallery-caption"><small>MOMENT</small><strong>最后的晨星</strong></span></button>
+      </div>
+    </section>
+
+    <section id="journal" class="journal-section" aria-labelledby="journal-title">
+      <div class="section-heading">
+        <p class="eyebrow">HER NOTES</p>
+        <h2 id="journal-title">佐伊的手记</h2>
+      </div>
+      <div class="journal-list">
+        <button class="journal-card" data-article="0" aria-label="阅读：如果粉色的星屑也有声音"><span class="journal-art scene-1" aria-hidden="true"></span><span class="journal-copy"><span class="journal-meta">NOTE / 01</span><strong>如果粉色的星屑也有声音</strong><span class="journal-excerpt">我试着听它。风掠过星尘的闪烁，远处有什么轻轻踏过梦的边界。星尘本身并不言语，却把这些都收进了夜色。</span><span class="read-label">阅读手记 →</span></span></button>
+<button class="journal-card" data-article="1" aria-label="阅读：和星尘做朋友"><span class="journal-art scene-3" aria-hidden="true"></span><span class="journal-copy"><span class="journal-meta">NOTE / 02</span><strong>和星尘做朋友</strong><span class="journal-excerpt">它像光，又比光更有自己的脾气。有一只喜欢绕着星尘的闪烁跑，另一只总是在我打算出发时，把自己团成一小团。我分不清那是不是休息，但我决定尊重它的安排。</span><span class="read-label">阅读手记 →</span></span></button>
+<button class="journal-card" data-article="2" aria-label="阅读：晨星尽头，有一盏灯"><span class="journal-art scene-6" aria-hidden="true"></span><span class="journal-copy"><span class="journal-meta">NOTE / 03</span><strong>晨星尽头，有一盏灯</strong><span class="journal-excerpt">屋子里没有什么了不起的宝物。一张桌子，一把有些旧的椅子，炉火边放着一只水壶。却正好够我把斗篷晾开，把星尘的闪烁摊在桌上，让赶了一天路的手指慢慢暖起来。</span><span class="read-label">阅读手记 →</span></span></button>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="contact-inner">
+        <p class="eyebrow">STAY IN TOUCH</p>
+        <h2 id="contact-title">关于佐伊</h2>
+        <p class="contact-copy">这是一份向佐伊致敬的非官方同人主题站，所有视觉均由 CSS 与 SVG 现场绘制，不含任何外部素材。欢迎取用源码、自由改造。</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/heqiangdiao-wq/lol-zoe" rel="noopener"><svg><use href="#icon-github"/></svg>仓库源码</a>
+          <a class="button button-glass" href="https://www.leagueoflegends.com/zh-tw/champions/" rel="noopener"><svg><use href="#icon-book"/></svg>官方英雄</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-glow" aria-hidden="true"></div>
+    <div class="footer-content">
+      <p class="eyebrow">NON-OFFICIAL FAN SITE</p>
+      <h2>佐伊 · 暮光嬉戏</h2>
+      <p>一座属于佐伊的幻境。技能数据取自 Riot Data Dragon 16.20.1，故事与手记为同人创作。</p>
+      <div class="footer-socials">
+        <a class="icon-button" href="https://github.com/heqiangdiao-wq/lol-zoe" rel="noopener" aria-label="GitHub 仓库"><svg><use href="#icon-github"/></svg></a>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-brand"><svg class="footer-mark"><use href="#icon-sigil"/></svg> 佐伊</p>
+        <p>© <span id="copyright-year">2026</span> 同人主题站 · 仅供学习交流</p>
+        <p class="legal-note">《英雄联盟》及相关角色属于 Riot Games。本站为非官方同人展示，与 Riot Games 无关联。</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="gallery-dialog" aria-label="画廊大图">
+    <button class="dialog-close icon-button" type="button" aria-label="关闭大图">×</button>
+    <div class="lightbox-image" id="lightbox-image" role="img" aria-label=""></div>
+    <div class="lightbox-bottom">
+      <h2 id="lightbox-title"></h2>
+      <div class="lightbox-nav">
+        <button class="icon-button" id="gallery-prev" type="button" aria-label="上一张">‹</button>
+        <span id="lightbox-counter"></span>
+        <button class="icon-button" id="gallery-next" type="button" aria-label="下一张">›</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="article" id="article-dialog" aria-label="手记阅读">
+    <button class="dialog-close icon-button" type="button" aria-label="关闭手记">×</button>
+    <div class="article-cover" id="article-cover"></div>
+    <div class="article-body">
+      <h2 id="article-title"></h2>
+      <div id="article-content"></div>
+    </div>
+  </dialog>
+</body>
+</html>
