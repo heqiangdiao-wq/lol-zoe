@@ -34,7 +34,7 @@ void heroTrack.offsetWidth;
 heroTrack.classList.add('is-ready');
 [heroPrevious,heroNext,document.querySelector('.hero-carousel-controls')].forEach(c=>{c.hidden=false;});
 function updateHeroControls(){
-  heroSlides.forEach((image,index)=>image.setAttribute('aria-hidden',String(index!==heroIndex)));
+  heroSlides.forEach((image,index)=>{if(!true)image.setAttribute('aria-hidden',String(index!==heroIndex));});
   heroDots.forEach((dot,index)=>{dot.setAttribute('aria-pressed',String(index===heroIndex));dot.setAttribute('aria-disabled',String(heroAnimating));});
   heroPrevious.setAttribute('aria-disabled',String(heroAnimating));
   heroNext.setAttribute('aria-disabled',String(heroAnimating));

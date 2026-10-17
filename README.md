@@ -1,6 +1,6 @@
 # 佐伊 · 暮光嬉戏
 
-佐伊（暮光星灵）主题的响应式静态同人网页，模仿 [kuaidianguguji.github.io](https://kuaidianguguji.github.io) 的单页角色站风格。纯 HTML、CSS、JavaScript，无依赖、无构建步骤、不依赖 CDN 或在线字体；**全部视觉由 CSS 渐变与内联 SVG 现场绘制**，不附带任何外部图片。
+佐伊（暮光星灵）主题的响应式静态同人网页，模仿 [kuaidianguguji.github.io](https://kuaidianguguji.github.io) 的单页角色站风格。纯 HTML、CSS、JavaScript，无依赖、无构建步骤、不依赖 CDN 或在线字体；**主视觉为 AI 生成的角色形象图（`assets/hero.png`）**，场景与装饰视觉由 CSS 渐变与内联 SVG 现场绘制。
 
 ## 查看页面
 
@@ -20,7 +20,7 @@ python -m http.server 4173 --bind 127.0.0.1
 
 ## 页面内容与交互
 
-- 三张全幅主题幻境 Hero 每 6 秒自动循环，支持左右按钮、底部圆点和暂停 / 继续；悬浮玻璃导航与主题色按钮。
+- Hero 区左侧文案 + 右侧角色主形象图（`assets/hero.png`；图片缺失时自动回退为纯视觉布局），移动端转为可读的背景大图；背后三张主题幻境每 6 秒自动循环，支持左右按钮、底部圆点和暂停 / 继续；悬浮玻璃导航与主题色按钮。
 - 故事 / 能力 / 画廊 / 手记四个入口；五项技能（被动 + Q/W/E/R）切换。
 - 八个画廊场景（CSS 渐变卡片，4:3），分类筛选、大图弹窗、左右切换。
 - 三篇同人手记，点击卡片阅读。
