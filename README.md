@@ -1,6 +1,6 @@
 # 佐伊 · 暮光嬉戏
 
-佐伊（暮光星灵）主题的响应式静态同人网页，模仿 [kuaidianguguji.github.io](https://kuaidianguguji.github.io) 的单页角色站风格。纯 HTML、CSS、JavaScript，无依赖、无构建步骤、不依赖 CDN 或在线字体；**主视觉为 AI 生成的角色形象图（`assets/hero.png`）**，场景与装饰视觉由 CSS 渐变与内联 SVG 现场绘制。
+佐伊（暮光星灵）主题的响应式静态同人网页，模仿单页角色站风格。纯 HTML、CSS、JavaScript，无依赖、无构建步骤、不依赖 CDN 或在线字体；**主视觉为 AI 生成的角色形象图（`assets/hero.png`）**，场景与装饰视觉由 CSS 渐变与内联 SVG 现场绘制。
 
 ## 查看页面
 
@@ -12,11 +12,11 @@ python -m http.server 4173 --bind 127.0.0.1
 
 浏览器打开 `http://127.0.0.1:4173/`。
 
-## 发布到 GitHub Pages
+## 发布为静态站点
 
-1. 将本仓库根目录的 `index.html`、`404.html`、`styles.css`、`script.js`、`.nojekyll` 与整个 `assets` 文件夹上传。
-2. 仓库 **Settings → Pages** 选择 **Deploy from a branch**，分支 `main`，目录 `/(root)`。
-3. 发布后访问 `https://heqiangdiao-wq.github.io/lol-zoe/`。
+1. 将本仓库根目录的 `index.html`、`404.html`、`styles.css`、`script.js`、`.nojekyll` 与整个 `assets` 文件夹一起部署。
+2. 任意静态托管（GitHub Pages / Cloudflare Pages / 自有服务器）均可，无需构建。
+3. 仓库 **Settings → Pages** 选择 **Deploy from a branch**，分支 `main`，目录 `/(root)`。
 
 ## 页面内容与交互
 
@@ -32,7 +32,6 @@ python -m http.server 4173 --bind 127.0.0.1
 ## 数据来源
 
 - 技能名称与简介依据 [Riot Data Dragon 16.20.1](https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/champion/Zoe.json)（简体中文）。
-- [佐伊 官方英雄页面](https://www.leagueoflegends.com/zh-tw/champions/)。
 - 画廊场景、三篇手记与全部视觉为同人 / CSS 创作，非官方剧情。
 
 《英雄联盟》及相关角色属于 Riot Games。本站为非官方同人主题展示，与 Riot Games 无关联。
